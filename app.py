@@ -2,7 +2,6 @@ import streamlit as st
 import numpy as np
 import xgboost
 import pickle
-import cv2
 from  PIL import Image, ImageEnhance
 import requests
 import urllib.request
