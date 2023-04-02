@@ -5,7 +5,7 @@ scikit-learn
 pandas
 numpy
 xgboost
-cv2
+opencv-python
 pickle
 PIL
 requests
