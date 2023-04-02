@@ -5,3 +5,9 @@ scikit-learn
 pandas
 numpy
 xgboost
+cv2
+pickle
+PIL
+requests
+urllib.request
+streamlit_option_menu
