@@ -275,4 +275,11 @@ if selected == 'Car Prediction':
         st.title("The predicted price of this configuration is " + str(np.exp(pipe.predict(query)[0]))+ " Lac Rupees")
 if selected == 'Team Github':
     url = "https://github.com/dhruvj014/DATAGEEKS_Datahack"
+    url2 = "https://raw.githubusercontent.com/dhruvj014/DATAGEEKS_Datahack/main/pics/Teampic.jpg"
+    f = open('teampic.jpg','wb')
+    f.write(requests.get(url2).content)
+    f.close()
+    new_image = Image.open('teampic.jpg')
+    st.image(new_image)
+    st.write("Thank you for giving us this opportunity to participate in this Hackathon.")
     st.write("You can check out our Github [here](%s)" % url)
